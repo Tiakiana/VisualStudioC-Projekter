@@ -1,0 +1,10 @@
+1-10 Random faction subject to internal corruption
+11-20 Random faction hugely unpopular with population
+21-30 Tension and rivalry between 2 factions
+31-40 Random faction run by insane leader
+41-50 Random faction openly allied with outsiders
+51-60 Random faction infiltrated by outsiders
+61-70 Random faction has subverted another faction
+71-80 Attempts to establish a few faction (roll type randomly above)
+81-90 Random faction forced underground by opposition
+91-100 Active conflict between 2 factions (overt or covert)

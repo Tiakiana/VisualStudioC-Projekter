@@ -1,0 +1,16 @@
+1-4 Enemy agent
+5-8 Aggressive and hostile
+9-12 Hostile
+13-17 Refuse to interact
+18-23 Negative disposition
+24-31 Hesitant
+32-39 Cautious
+40-47 Will not initiate contact, business like if engaged
+48-51 Encounter interrupted by unexpected event
+52-68 Business like
+69-77 Friendly
+78-83 Enthusiastic
+84-87 Potential contact
+88-90 Potential ally
+91-95 Provides sub quest
+96-100 Has information relevant to adventure or sub quest

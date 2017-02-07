@@ -1,0 +1,21 @@
+1-5 Soldier, guard, man at arms
+6-10 Menial worker, labourer
+11-15 Craftsman, builder
+16-20 Scribe, translator
+21-25 Doctor, apothecary
+26-30 Hunter, woodsman
+31-35 Teacher, instructor
+36-40 Administrator, official
+41-45 Rogue, scoundrel
+46-50 Beggar, impoverished
+51-55 Servant, aide
+56-60 Farmer, herder
+61-65 Agitator, activist
+66-70 Inventor, Engineer
+71-75 Artist, poet
+76-80 Drifter, vagabond
+81-84 Explorer, scout
+85-88 Merchant, trader
+89-92 Priest, clergy
+93-96 Scholar, thinker
+96-100 Roll again but result is only a cover identity.

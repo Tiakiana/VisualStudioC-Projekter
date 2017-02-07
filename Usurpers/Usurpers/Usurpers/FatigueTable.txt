@@ -1,0 +1,12 @@
+1-15 Must rest for 5 minutes
+16-23 Must rest for 30 minutes
+24-29 Incapacitated for 10 minutes
+30-34 Confused for 10 minutes (unable to use magic)
+35-37 Loss of energy (burn one trait)
+38-40 Uninspired (burn one conviction until well rested)
+41-59 Exhausted (if incurred again, must rest 30 minutes)
+50-73 Tired (role play effect)
+74-81 Unmotivated (role play effect)
+82-86 Burst of energy (remove one minor negative effect)
+87-90 Triumph through adversity (regain one burnt trait)
+91-100 Bruised and worn (cosmetic effect)

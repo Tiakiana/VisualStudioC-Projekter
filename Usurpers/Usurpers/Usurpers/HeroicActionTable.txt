@@ -1,0 +1,10 @@
+1-5 Heroics fail, possibly fatal or permanent.
+6-10 Disastrous failure
+11-35 Complete failure
+36-59 Failure with consequences
+60-64 Heroics narrowly fail
+65-74 Characters loses his nerve
+75-80 Heroics succeed but suffers consequence
+81-95 Heroic action succeeds
+96-99 Heroics succeed beyond all expectation
+100-101 Character develops an epic talent

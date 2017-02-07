@@ -1,0 +1,13 @@
+1-9 Knocked senseless *
+10-18 Stunned *
+19-27 Painful blow *
+28-36 Gash *
+37-44 Impaired arm **
+45-52 Impaired leg **
+53-60 Intense pain **
+61-68 Steady bleeding **
+69-75 Deep wound ***
+76-82 Multiple wounds ***
+83-89 Barely conscious ***
+90-96 Broken or shattered limb ***
+97-100 Permanent injury ****

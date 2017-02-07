@@ -1,0 +1,14 @@
+1-14 Slain in battle
+15-21 Assassinated
+22-28 Killed by monster
+29-36 Disappeared on expedition
+37-57 Natural causes
+58-64 Cursed
+65-66 Ascended to divinity
+67-68 Achieved immortality
+69-70 Left dimension
+71-77 End unknown
+78-88 Defeated by another individual
+89-90 Reborn as a different individual
+91-95 Banished
+96-100 Self-imposed exile

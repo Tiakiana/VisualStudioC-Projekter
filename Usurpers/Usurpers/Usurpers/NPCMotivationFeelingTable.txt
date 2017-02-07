@@ -1,0 +1,11 @@
+1-9 Love
+10-18 Admiration
+19-27 Hatred
+28-36 Disdain
+37-45 Pride
+46-54 Shame
+55-63 Lust
+64-72 Abstinence from
+73-81 Curiosity
+82-90 Fear
+91-100 Avoidance

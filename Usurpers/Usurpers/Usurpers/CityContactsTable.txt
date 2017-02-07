@@ -1,0 +1,10 @@
+1-10 Training
+11-20 Knowledge
+21-30 Guide
+31-40 Equipment
+41-50 Rare items
+51-60 Social support
+61-70 Shelter
+71-80 Mystical
+81-90 Ally
+91-100 Contraband

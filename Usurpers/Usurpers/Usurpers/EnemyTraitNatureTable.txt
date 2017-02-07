@@ -1,0 +1,8 @@
+1-20 Manpower, troops, agents or followers
+21-30 Leader, elite group or inner circle
+31-50 Resources, wealth or asset
+51-60 Popular opinion
+61-70 Tradition or bureaucracy
+71-80 Mystical, magical or monstrous
+81-90 Power, control or coercion
+91-100Knowledge or information

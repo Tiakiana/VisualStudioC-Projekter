@@ -1,0 +1,9 @@
+1-3 Unit shattered but may be reformed over time
+4-7 Unit loses battle trait
+8-11 Unit loses trait
+12-22 Unit completely unfit for action until rested
+23-34 Unit unfit for combat but may move
+35-46 All unit traits burned
+47-71 One unit trait burned
+72-96 Unit in good condition
+97-100 Unit earns a morale related trait

@@ -1,0 +1,13 @@
+1-3 Trip impossible due to extreme weather
+4-6 Trip interrupted due to unexpected circumstances
+7-10 Completely lost. Once 3 days have passed, roll again
+11-14 Lose 3 days worth of supplies. Roll again.
+15-21 Significant delay (take 11 days)
+22-28 Some delay (take 9 days)
+29-35 Discover unexpected adventure location
+36-51 Random encounter
+52-59 Encounter monster
+60-80 Arrive as expected in 7 days
+81-86 Arrive in 7 days, but spend 10 days worth of supplies.
+87-94 Arrives in 5 days
+95-100 Arrives in 3 days

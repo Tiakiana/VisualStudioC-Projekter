@@ -1,0 +1,17 @@
+1-29 No events occur
+30-31 Splinter group emerges
+32-36 Faction gains allies
+37-41 Faction loses allies
+42-46 Gain popularity
+47-51 Lose popularity
+52-55 Leadership struggle
+56-60 Comes into conflict with other faction
+61-66 New contact affiliated with faction
+67-72 New contact opposing faction
+73-75 Change of leadership
+76-77 New faction emerges
+78-81 Corruption or disorganization
+82-84 Faction is being infiltrated
+85-92 Faction offers sub quest
+93-96 Internal reforms
+97-100 Loyalty improves

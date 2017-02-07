@@ -1,0 +1,10 @@
+1-10 City government
+11-20 Merchant or craft guild
+21-30 Military force
+31-40 Church
+41-50 Cult
+51-60 Citizens movement
+61-70 Bandits or outlaws
+71-80 Nobility
+81-90 Philosophical movement
+91-100 Presence of outsiders

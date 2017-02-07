@@ -1,0 +1,14 @@
+1-10 Lord or ruler
+11-16 Religious leader
+17-22 Warlord
+23-28 Leader of organization or order
+29-35 Ancient evil
+36-45 Legendary monster
+46-50 Prophet
+51-55 Legendary craftsman
+56-70 Hero
+71-85 Villain
+86-90 Explorer
+91-95 Inventor
+96-99 Visionary
+100-100 Destroyer of worlds

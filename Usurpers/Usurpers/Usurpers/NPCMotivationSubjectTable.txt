@@ -1,0 +1,11 @@
+1-9 Romance
+10-18 Wealth
+19-27 Reputation
+28-36 Power
+37-45 Influence
+46-54 Food and drink
+55-63 Faith
+64-72 Cause
+73-81 Friendship
+82-90 Immortality
+91-100 Knowledge

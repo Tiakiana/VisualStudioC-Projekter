@@ -1,0 +1,9 @@
+1-30 No major leadership
+31-45 Loose confederation
+46-60 Sovereign city states
+61-70 Popular ruler
+71-80 Unpopular ruler
+81-85 Iron fisted dictator
+86-90 Technocratic rule
+91-95 Decentralized political entity
+96-100 Empire of multiple subjects

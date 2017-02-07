@@ -1,0 +1,12 @@
+1-5 avoid
+6-10 observe
+11-15 parley
+16-20 stalk and hide
+21-25 await reinforcements
+26-35 defensive position
+36-45 cautious approach
+46-50 threaten
+51-70 attack cautiously
+71-85 attack confidently
+86-95 aggressive attack
+96-100 frenzied assault

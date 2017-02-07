@@ -1,0 +1,13 @@
+1-5 Violent hatred
+6-10 Loathing
+11-15 Plotting
+16-25 Severe dislike
+26-35 Mild dislike
+36-45 Uninterested
+46-55 Distant
+56-65 Ambivalent
+66-80 Business like
+81-85 Admiration
+86-90 Friendly
+91-95 Close
+96-100 Devoted

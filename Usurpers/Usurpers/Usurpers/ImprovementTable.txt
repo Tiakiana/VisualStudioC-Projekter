@@ -1,0 +1,11 @@
+1-3 Completely unable to acquire trait/knowledge
+4-6 Character fails to learn but becomes obsessive with task. May change a conviction
+7-21 Fails to learn
+22-26 Must undertake sub quest to learn
+27-32 Must spend additional time to learn
+33-38 Unexpected event disturbs training
+39-43 Character gains trait and makes new contact in process
+44-49 Must find new instructor or learning environment
+50-59 May replace existing trait with desired
+60-94 Gain new trait or learning
+95-100 Unexpected realization leads to different trait or learning.

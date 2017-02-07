@@ -1,0 +1,8 @@
+1-10 Weak trait (Forty +DTen)
+11-30 Moderate trait (Fiftyfive+DTen)
+31-45 Strong trait (Seventy+DTen)
+46-55 Hidden moderate trait (Fifty+DTen)
+56-65 Hidden strong trait (SixtyFive+DTen)
+66-85 No trait for this roll. Increase another trait by a DTen.
+86-95 Moderate trait (Fifty+DTen) and roll receive an extra roll.
+96-100 Moderate trait (Fifty+DTen). When reduced to a single trait during the campaign, receive a Strong trait (Eighty+DTen)

@@ -1,0 +1,9 @@
+1-20 Uncommitted. Will not engage in risky activities except in emergencies
+21-37 Reluctant. Requires Morale roll to engage in risky activity
+38-57 Dependable.
+58-67 Untried. After first challenging encounter, roll again on this table
+68-77 Skilled. Has 1 trait.
+78-82 Specialist. Has 2 traits
+83-92 Promising henchman. May gain experience.
+93-97 Valuable follower. 1 trait, may gain experience
+98-100 Unexpected talent. 2 traits, may gain experience

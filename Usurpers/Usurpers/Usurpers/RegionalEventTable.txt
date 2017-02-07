@@ -1,0 +1,20 @@
+1-5 Change of leadership. Popular
+6-10 Change of leadership. Unpopular
+11-15 Threat of civil war
+16-20 Threat of external war
+21-25 Area overrun by monsters
+26-30 Bad harvests
+31-35 Disease epidemic
+36-40 Uprising
+41-45 New religion
+46-50 Regional tournament or competition
+51-55 Natural disaster
+56-60 Political struggle
+61-65 Unexplored region discovered
+66-70 Time of prosperity
+71-75 New resource located
+76-80 Unusually early change in seasons
+81-85 Time of peace
+86-90 Regional faction forms
+91-95 Regional faction weakens
+96-100 Regional faction strengthens

@@ -1,0 +1,14 @@
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\bin\Debug\Usurpers.exe.config
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\bin\Debug\Usurpers.exe
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\bin\Debug\Usurpers.pdb
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers.csprojResolveAssemblyReference.cache
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\MainWindow.g.cs
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\App.g.cs
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers_MarkupCompile.cache
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers_MarkupCompile.lref
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\MainWindow.baml
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers.g.resources
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers.Properties.Resources.resources
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers.csproj.GenerateResource.Cache
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers.exe
+C:\Users\Jakob\Projects\Usurpers\Usurpers\Usurpers\obj\Debug\Usurpers.pdb

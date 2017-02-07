@@ -1,0 +1,15 @@
+1-2 Character suffers a gruesome death
+3-5 Complete disaster – Character suffers a killing blow.
+6-9 Character is defeated and injured
+10-14 Character pushed back or repulsed, suffers an injury.
+15-19 Character suffers injury
+20-24 Character pushed back or unsuccessful, suffers fatigue.
+25-29 Exchange not conclusive. Character suffers fatigue
+30-34 Exchange not conclusive. Combatants locked in melee next exchange
+35-39 Unexpected event interrupts battle
+40-50 Opponent pushed back, driven off or demoralized.
+51-65 Opponent defeated but character suffers injury
+66-89 Opponent defeated.
+90-95 Opponent defeated, character in advantageous position.
+96-98 Opponent defeated spectacularly
+99-100 Character develops a new talent, and has complete victory.

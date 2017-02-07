@@ -1,0 +1,20 @@
+1-5 Travelling group (roll NPC type)
+6-10 Explorers, colonists or workers (depending on region)
+11-15 War party
+16-20 Remnants of battle
+21-25 Camp site, travellers
+26-30 Camp site, military
+31-35 Hunting party
+36-40 Battle in progress
+41-45 Village, majority/nearest culture
+46-50 Village, unique culture
+51-55 Tribe, unique culture
+56-60 Fortification
+61-65 Nomadic group
+66-70 Renegades or rebels from nearest power or faction
+71-75 Ambush
+76-80 Slavers
+81-85 Carrying loot
+86-90 Raiding party
+91-95 Single traveller
+96-100 Patrol from nearest power or faction

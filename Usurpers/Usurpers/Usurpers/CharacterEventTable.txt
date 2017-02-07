@@ -1,0 +1,20 @@
+1-5 Someone delivers a message
+6-10 Meets an old friend
+11-15 Meets an old rival
+16-20 Catches a minor disease
+21-25 Makes a local friend
+26-30 Makes a local rival
+31-35 Makes small sum of money
+36-40 Befriend animal
+41-45 See a crime
+46-50 Hear a rumour
+51-55 Offered a job
+56-60 Someone asks for help
+61-65 Victim of a crime
+66-70 A friend is in trouble
+71-75 Mysterious event
+76-80 Omen
+81-85 Learn something interesting
+86-90 See a strange creature
+91-95 Offered a strange item
+96-100 Information about an adventure location

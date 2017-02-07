@@ -1,0 +1,7 @@
+1-20 The opposition is set on a last stand.
+21-40 The opposition initiates a confrontation to determine the outcome.
+41-55 The opposition dissolves with key elements fleeing to plot their revenge.
+56-65 The opposition collapses without further resistance.
+66-75 A complication has occurred which must be solved. Then roll again.
+76-90 The enemy has hidden reserves. Roll to generate a new trait.
+91-100The opposition sets a last stand but during it, the players find evidence of what the true evil is. Generate a new adventure to tackle this.

@@ -1,0 +1,10 @@
+1-3 Lose contact status
+4-13 Unable to assist
+14-28 Limited assistance
+29-58 Basic assistance
+59-78 Eager to help
+79-86 Unusual help, item or information
+87-90 Will assist and introduces new contact
+91-94 Will assist and may acquire ally status
+95-97 Will assist and may become follower
+98-100 Provide sub quest

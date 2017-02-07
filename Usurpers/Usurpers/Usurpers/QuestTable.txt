@@ -1,0 +1,20 @@
+1-5 Fetch an item (known location)
+6-10 Find an item (location unknown)
+11-15 Clear out monster infestation
+16-20 Deliver a message
+21-25 Kill someone
+26-30 Find someone's whereabouts
+31-35 Deliver an item
+36-40 Help build something
+41-45 Heal or cure someone
+46-50 Safeguard an item
+51-55 Find information
+56-60 Guard an area
+61-65 Explore an area
+66-70 Steal an item
+71-75 Break something
+76-80 Spy on someone
+81-85 Pretend to be someone
+86-90 Threaten someone
+91-95 Pretend to carry out random side quest (roll again)
+96-100 Major quest (see below)

@@ -1,0 +1,20 @@
+1-5 Bad weather
+6-10 Excellent weather
+11-15 Someone goes missing
+16-20 Animals terrorizing locals
+21-25 A new faction emerges
+26-30 A new conflict emerges
+31-35 Characters make a new contact
+36-40 Change of leadership. Popular
+41-45 Change of leadership. Unpopular
+46-50 Crime spree
+51-55 Festival
+56-60 Construction project
+61-65 Militia/Guard drill or other military preparation
+66-70 Raid
+71-75 Spread of sickness
+76-80 Monster threat
+81-85 Natural disaster
+86-90 Magical disaster
+91-95 Unexplained events
+96-100 Newcomers/migrants

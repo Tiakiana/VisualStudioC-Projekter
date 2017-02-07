@@ -1,0 +1,20 @@
+1-5 Cave complex
+6-10 Dungeon (smaller)
+11-15 Dungeon (larger)
+16-20 Metropolis
+21-25 Village
+26-30 Town
+31-35 City
+36-40 Trading post
+41-45 Mine
+46-50 Natural resource
+51-55 Ruined city
+56-60 Fortress
+61-65 Ruined fortress
+66-70 Magical area
+71-75 Monster infestation
+76-80 Unexplored
+81-85 Wilderness
+86-90 Holy ground
+91-95 Wasteland
+96-100 Unnatural region

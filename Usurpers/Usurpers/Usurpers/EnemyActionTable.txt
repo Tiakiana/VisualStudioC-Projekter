@@ -1,0 +1,11 @@
+1-10 Inactive this exchange
+11-19 Direct attack on characters
+20-28 Indirect attack on characters
+29-37 Enemy gathers allies
+38-46 Enemy fortifies position or gathers support
+47-55 Allies of characters attacked indirectly
+56-64 Allies of characters attacked directly
+65-73 Enemy specialist sent to spy, attack or interfere with characters
+74-82 Attempts to subvert allies
+83-91 Strike at resources of characters
+92-100 Show of strength

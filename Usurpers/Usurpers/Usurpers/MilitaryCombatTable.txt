@@ -1,0 +1,15 @@
+1-2 Unit routed beyond recovery
+3-5 Unit shattered or massacred
+6-9 Unit defeated and tests cohesion
+10-14 Unit pushed back, tests cohesion
+15-19 Unit tests cohesion
+20-24 Unit pushed back
+25-29 Inconclusive, lull in fighting
+30-34 Inconclusive, locked in combat
+35-39 Unexpected event interrupts battle
+40-50 Opponent pushed back
+51-65 Opponent defeated, unit tests cohesion
+66-89 Opponent defeated
+90-95 Opponent defeated, unit exploits position
+96-98 Opponent routed
+99-100 Complete victory, unit gains trait

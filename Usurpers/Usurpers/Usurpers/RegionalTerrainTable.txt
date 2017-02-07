@@ -1,0 +1,10 @@
+1-21 Plains
+22-29 Marshes
+30-42 Hills
+43-52 Mountains
+53-62 Rough
+63-70 Wasteland
+71-82 Forest
+83-92 Primeval forest
+93-97 Inhospitable
+98-100 Alien or magical
