@@ -1,0 +1,9 @@
+1-2 Character has lost all hope and will become an enemy in the campaign
+3-5 Character has lost all hope and will desert at earliest opportunity
+6-12 Do anything to avoid situation, including flight or surrender
+13-23 Character will avoid action if possible
+24-33 Character will hesitate, then test again
+34-44 Cautious and limited action
+45-84 Act normally
+85-95 Engage enthusiastically
+96-100 Loyalty is absolute from here onwards

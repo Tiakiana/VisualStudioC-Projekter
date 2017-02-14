@@ -1,0 +1,15 @@
+1-2 Character suffers a permanent flaw
+3-5 Complete disaster - Action fails in the worst possible way
+6-9 Character fails completely at the task.
+10-14 Action fails and the character suffers a consequence of failure
+15-19 Action fails but character avoids consequences
+20-24 Action fails due to an unforeseen circumstance
+25-29 Failure to make progress. Change approach or improve odds to retry
+30-34 Failure to make progress. If no time limit, can attempt again
+35-39 Unexpected event interrupts action
+40-50 Action barely succeeds
+51-65 Action succeeds with a consequence
+66-89 Action succeeds as expected
+90-95 Action succeeds, character makes unexpected discovery
+96-98 Action succeeds perfectly
+99-100 Character develops a new talent

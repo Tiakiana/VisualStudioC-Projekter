@@ -15,8 +15,53 @@ namespace Usurpers
      //   public List<KeyValuePair<string, Hashtable>> GameTablesAdvance = new List<KeyValuePair<string, Hashtable>>();
        // public List<Hashtable> GameTables = new List<Hashtable>();
         public Dictionary<string, Hashtable> GameTables = new Dictionary<string, Hashtable>();
+        public Dictionary<string, string> FullGameTables = new Dictionary<string, string>();
         public Dictionary<int, string> IndexOfTables = new Dictionary<int, string>();
+        private string[] AllTables;
         Random rnd = new Random();
+
+
+        public Tables()
+        {
+            LoadInFullTables();
+        }
+
+        public void LoadInFullTables()
+        {
+            string[] dirs = Directory.GetFiles("../../", "*Table.txt");
+            int counter = 0;
+            //foreach (string s in dirs)
+            //{
+            // //   IndexOfTables.Add(counter, s.Substring(6));
+            //  //  counter++;
+            //}
+
+            foreach (string s in dirs)
+            {
+                StreamReader reader = new StreamReader(s);
+                Hashtable chart = new Hashtable(100);
+                List<string> lines = new List<string>();
+                string line = "";
+                while (((line = reader.ReadLine()) != null))
+                {
+                    lines.Add(line);
+                }
+                reader.Close();
+                string result = "";
+                for (int i = 0; i < lines.Count; i++)
+                {
+                    result += lines[i] + "\n";
+
+                    
+                }
+                //     GameTablesAdvance.Add(new KeyValuePair<string, Hashtable>(s.Substring(6),chart));
+
+                string trim = s.Substring(6);
+
+                FullGameTables.Add(trim, result);
+                // GameTables.Add(chart);
+            }
+        }
 
         public void LoadInTables()
         {
@@ -87,6 +132,7 @@ namespace Usurpers
 
         }
 
+
         public NPC CreateNPC()
         {
             string moti = (string) GameTables["NPCMotivationIntensityTable.txt"][rnd.Next(1, 101)] + " feeling of " + (string)GameTables["NPCMotivationFeelingTable.txt"][rnd.Next(1, 101)] + " towards " + (string)GameTables["NPCMotivationSubjectTable.txt"][rnd.Next(1, 101)];
@@ -148,5 +194,19 @@ namespace Usurpers
             }
         }
 
+        public string ShowTable(string tablename)
+        {
+            try
+            {
+                return (string) FullGameTables[tablename];
+
+            }
+            catch (Exception)
+            {
+
+                return "You tried " + tablename + ". No such table";
+
+            }
+        }
     }
 }

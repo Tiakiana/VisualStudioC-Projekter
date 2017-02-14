@@ -29,20 +29,25 @@
 
 
         </Grid>
-        <Grid Margin="741,10,0,0">
-            <Button x:Name="ActionEvent" Content="Action/Event" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="HeroicAction" Content="Heroic Action" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Injury" Content="Injury" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Exposure" Content="Exposure" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Mental" Content="Mental" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Combat" Content="Combat" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Fatigue" Content="Fatigue" HorizontalAlignment="Left" Margin="90,35,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Improvement" Content="Improvement" HorizontalAlignment="Left" Margin="90,60,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="TravelTime" Content="Travel" HorizontalAlignment="Left" Margin="90,85,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="AdventureLocation" Content="Advent. Loc." HorizontalAlignment="Left" Margin="90,110,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid Margin="741,11,0,-1">
+            <Button x:Name="ActionEvent" Content="Action/Event" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="ActionEvent_Click"/>
+            <Button x:Name="HeroicAction" Content="Heroic Action" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Click="HeroicAction_Click"/>
+            <Button x:Name="Injury" Content="Injury" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75" Click="Injury_Click"/>
+            <Button x:Name="Exposure" Content="Exposure" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="75" Click="Exposure_Click"/>
+            <Button x:Name="Quest" Content="Quest" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top" Width="75" Click="Quest_Click"/>
+            <Button x:Name="Mental" Content="Mental" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="75" Click="Mental_Click"/>
+            <Button x:Name="Region" Content="Region" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" Width="75" Click="Region_Click"/>
+            <Button x:Name="Combat" Content="Combat" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="Combat_Click"/>
+            <Button x:Name="Fatigue" Content="Fatigue" HorizontalAlignment="Left" Margin="90,35,0,0" VerticalAlignment="Top" Width="75" Click="Fatigue_Click"/>
+            <Button x:Name="Improvement" Content="Improvement" HorizontalAlignment="Left" Margin="90,60,0,0" VerticalAlignment="Top" Width="75" Click="Improvement_Click"/>
+            <Button x:Name="TravelTime" Content="Travel" HorizontalAlignment="Left" Margin="90,85,0,0" VerticalAlignment="Top" Width="75" Click="TravelTime_Click"/>
+            <Button x:Name="Factions" Content="Factions" HorizontalAlignment="Left" Margin="90,232,0,0" VerticalAlignment="Top" Width="75" Click="Factions_Click"/>
+            <Button x:Name="AdventureLocation" Content="Advent. Loc." HorizontalAlignment="Left" Margin="90,257,0,0" VerticalAlignment="Top" Width="75" Click="AdventureLocation_Click"/>
 
             <TextBox x:Name="ResultBlock" HorizontalAlignment="Left" Margin="0,306,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Height="190" Width="216" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
          ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            <Button x:Name="Sanity" Content="Sanity" HorizontalAlignment="Left" Margin="90,110,0,0" VerticalAlignment="Top" Width="75" Click="Sanity_Click"/>
+            <Button x:Name="Gruesome" Content="Gruesome" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Width="75" Click="Gruesome_Click" />
 
         </Grid>
         <Label x:Name="Title" Content="Notes:" HorizontalAlignment="Left" Margin="267,10,0,0" VerticalAlignment="Top" />

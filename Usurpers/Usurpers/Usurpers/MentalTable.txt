@@ -1,0 +1,12 @@
+1-2 Roll on sanity table
+3-5 Roll on fatigue table
+6-7 Develop negative trait
+8-12 Panic, brief
+13-17 Panic, lengthy
+18-22 Confused, brief
+23-27 Confused, lengthy
+28-35 Uneasy
+36-43 Cautious
+44-51 Shocked
+52-98 Character okay
+99-100 Character develops new trait
