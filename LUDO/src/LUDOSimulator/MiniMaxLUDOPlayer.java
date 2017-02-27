@@ -90,10 +90,10 @@ float[] finalScores = new float[4];
 			points -= 3;
 		}
 		
-/*		if (board.inStartArea(boardState[playernumber][pawnnr], playernumber)) {
-			return 0;
+		if (board.inStartArea(boardState[playernumber][pawnnr], playernumber)) {
+			return -10;
 		}
-*/
+
 		int start ;
 		int slut;
 

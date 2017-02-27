@@ -59,13 +59,17 @@ public class LUDO extends Frame implements ActionListener
 		}
 	}
 	
-	public static boolean visual = true;
+	public static boolean visual = false;
 	/**
 	 * Plays a number of games, which are usefull when all players are automatic.
 	 * Remember to set the "visual" field to speed up the simulation time.
 	 *
 	 */
 	public void play() {
+		int playerGul = 0;
+		int playerRød = 0;
+		int playerBlå = 0;
+		int playerGrøn = 0;
 		System.out.println("Playing Ludo");
 		long time = System.currentTimeMillis();
 		int[] result = new int[4];
@@ -77,6 +81,7 @@ public class LUDO extends Frame implements ActionListener
 		try {
 			for(int i=0;i<1000;i++) {
 				board.play();
+				
 				board.kill();
 				
 				result[0]+=board.getPoints()[0];
@@ -92,6 +97,10 @@ public class LUDO extends Frame implements ActionListener
 				board.setPlayer(new SemiSmartLUDOPlayer(board),LUDOBoard.GREEN);
 				if((i%500)==0) System.out.print(".");
 			}
+			System.out.println("Player Yellow:" + result[0]);
+			System.out.println("Player Red: " + result[1]);
+			System.out.println("Player Blue: " + result[2]);
+			System.out.println("Player Green: " + result[3]);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
