@@ -28,7 +28,7 @@ public class MiniMaxLUDOPlayer implements LUDOPlayer {
 		for(int i=0;i<4;i++)
 		{
 			float value = analyzeBrickSituation(i); 
-			if(value>max&&value>0) {
+			if(value>max) {
 				bestIndex = i;
 				max = value;
 			}
@@ -51,6 +51,8 @@ public class MiniMaxLUDOPlayer implements LUDOPlayer {
 		float[] scores = new float[4];
 float[] finalScores = new float[4];
 
+//i = playernumber
+//j = pawnnumber;
 
 
 
@@ -87,10 +89,11 @@ float[] finalScores = new float[4];
 		if(board.isGlobe(boardState[playernumber][pawnnr])){
 			points -= 3;
 		}
-		if (board.inStartArea(boardState[playernumber][pawnnr], playernumber)) {
+		
+/*		if (board.inStartArea(boardState[playernumber][pawnnr], playernumber)) {
 			return 0;
 		}
-
+*/
 		int start ;
 		int slut;
 
@@ -150,10 +153,24 @@ float[] finalScores = new float[4];
 
 	}
 
-public void Tryout(){
+
+/*
+public float MiniMax(int[][] boardstate){
 	
+	int bestMove =-1;
+	float bestScore = -99999999;
+	for (int i = 0; i < 4; i++) {
+		board.getNewBoardState(nr, color, dice2)
+	}
 	
+	return 2;
 }
+*/
+
+
+
+
+
 	
 // laver scoren for en enkelt brik.
 	public float MiniMax(int pawnnr){
@@ -172,24 +189,44 @@ public void Tryout(){
 	
 		return result;
 }
+
+/*
+	public float Max(int[][] bs,int depth, int maxdepth, int currentplayer){
+		if (depth== maxdepth) 
+		{
+			return Score(bs, currentplayer)[currentplayer];
+		}	
+		else {
+			float bestScore = -99999999;
+			
+		}
+		
+		return 2;
+	}
 	
+	public float Mini(){
+		
+		return 4;
+		
+	}
+	*/
 		
 	
 	
 
 
-
+//I er brikken vi kigger på.
 	public float analyzeBrickSituation(int i) {
 		if(board.moveable(i)) {
 		
 			
-			
+		
 //return CountFieldsToHome(board.getNewBoardState(i, board.getMyColor(), board.getDice()), board.getMyColor(), i);	
 return MiniMax(i);
 			
 		}
 		else {
-			return 0;
+			return -999999999;
 		}
 		
 	}
