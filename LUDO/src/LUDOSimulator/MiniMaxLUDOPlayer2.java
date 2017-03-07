@@ -7,13 +7,17 @@ import java.util.Random;
  * @version 0.9
  *
  */
-public class MiniMaxLUDOPlayer implements LUDOPlayer {
+public class MiniMaxLUDOPlayer2 implements LUDOPlayer {
 
 	LUDOBoard board;
 	Random rand;
 	public int depth = 3;
+	public int [][] tempBoardState;
+	public int maxDepth = 4;
+	public int currentDepth =0;
+	public int best;
 
-	public MiniMaxLUDOPlayer(LUDOBoard board)
+	public MiniMaxLUDOPlayer2(LUDOBoard board)
 	{
 		this.board = board;
 		rand = new Random();
@@ -25,7 +29,7 @@ public class MiniMaxLUDOPlayer implements LUDOPlayer {
 		int[] myBricksValue = new int[4];  
 		board.rollDice();
 		float max =-99999999;
-		
+		/*
 		int[][] tempBoardState;
 		for(int i=0;i<4;i++)
 		{
@@ -41,12 +45,13 @@ public class MiniMaxLUDOPlayer implements LUDOPlayer {
 		
 		//MiniMax2(0);
 		
-		
+		*/
+		MINIMAX(board.getBoardState(),2);
 	
 		}
 		
 		
-	}
+	
 
 	public float MiniMax2(int pawnnr){
 		tempBoardState = board.getBoardState();
@@ -60,8 +65,8 @@ return score;
 	public float Max(int pawn){
 		
 		if (isGameOverComputer(tempBoardState)) {
-		return 4000000;
-	}
+			return 4000000;
+		}
 	else if (currentDepth== maxDepth) {
 		//currentDepth = 0;
 		return CountFieldsToHome(tempBoardState,0, pawn);
@@ -122,9 +127,6 @@ return score;
 		
 	}
 	
-	
-	
-	
 	public float[] Score(int boardState[][], int playerscorewanted){
 
 
@@ -152,14 +154,6 @@ float[] finalScores = new float[4];
 		return finalScores;
 	}
 	
-	
-	public int [][] tempBoardState;
-	public int maxDepth = 4;
-	public int currentDepth =0;
-	public int best;
-	
-	
-	
 	public boolean isGameOverComputer(int[][] BoardState){
 		boolean res = true;
 			for (int pawn = 0; pawn < 4; pawn++) {
@@ -171,7 +165,6 @@ float[] finalScores = new float[4];
 		
 		return res;
 	}
-	
 	
 	public boolean isGameOverHuman(int[][] BoardState){
 		boolean res = true;
@@ -187,14 +180,6 @@ float[] finalScores = new float[4];
 		
 		
 	}
-	
-
-	
-	
-	
-	
-	
-	//Eval
 	
 	public float CountFieldsToHome(int[][] boardState, int playernumber, int pawnnr){
 		float points = 0;
@@ -261,7 +246,7 @@ float[] finalScores = new float[4];
 				points = slut-start;
 			}
 			else{
-				points = 52- Math.abs(slut-start);
+				points = Math.abs(slut-start);
 
 			}
 			return 52 - points;
@@ -274,34 +259,13 @@ float[] finalScores = new float[4];
 		}
 
 	}
-
-
-/*
-public float MiniMax(int[][] boardstate){
-	
-	int bestMove =-1;
-	float bestScore = -99999999;
-	for (int i = 0; i < 4; i++) {
-		board.getNewBoardState(nr, color, dice2)
-	}
-	
-	return 2;
-}
-*/
-
-
-
-
-	
 // laver scoren for en enkelt brik.
 	public float MiniMax(int pawnnr){
 		float result = 0;
 		int [][] boardstatex = board.getNewBoardState(pawnnr, board.getMyColor(), board.getDice());
 
 		result +=  Score(boardstatex, board.getMyColor())[0] +rand.nextFloat(); 
-		for (int i = 0; i < boardstatex.length; i++) {
-			
-		}
+		
 		for (int play = 1; play < 4; play++) {
 			for (int pawn = 0; pawn < 4; pawn++) {
 				for (int die = 1; die < 7; die++) {
@@ -313,40 +277,14 @@ public float MiniMax(int[][] boardstate){
 		return result;
 }
 
-	
-	
-	
-/*
-	public float Max(int[][] bs,int depth, int maxdepth, int currentplayer){
-		if (depth== maxdepth) 
-		{
-			return Score(bs, currentplayer)[currentplayer];
-		}	
-		else {
-			float bestScore = -99999999;
-			
-		}
-		
-		return 2;
-	}
-	
-	public float Mini(){
-		
-		return 4;
-		
-	}
-	*/
-		
-	
-	
-
-
 //I er brikken vi kigger på.
 	public float analyzeBrickSituation(int i) {
 		if(board.moveable(i)) {
 		
+			
+		
 //return CountFieldsToHome(board.getNewBoardState(i, board.getMyColor(), board.getDice()), board.getMyColor(), i);	
-return MiniMax(i);
+return MiniMax2(i);
 			
 		}
 		else {
@@ -354,11 +292,6 @@ return MiniMax(i);
 		}
 		
 	}
-		
-		
-		
-	
-
 
 	private boolean moveOut(int[][] current_board, int[][] new_board) {
 		for(int i=0;i<4;i++) {
@@ -382,6 +315,7 @@ return MiniMax(i);
 		return false;
 	}
 	private boolean hitMySelfHome(int[][] current_board, int[][] new_board) {
+
 		for(int i=0;i<4;i++) {
 			if(!board.inStartArea(current_board[board.getMyColor()][i],board.getMyColor())&&board.inStartArea(new_board[board.getMyColor()][i],board.getMyColor())) {
 				return true;
@@ -389,4 +323,100 @@ return MiniMax(i);
 		}
 		return false;
 	}
+	
+	
+	
+	
+	// Forsøg 2:
+	
+	float bestScoreMX;
+	float bestScoreMN;
+	
+	float moveScore;
+	
+	int bestest = -1;
+	
+	public float MAX(int [][] boardState, int depth, int playerNumber){
+		if (isGameOverComputer(boardState)) {
+			return 4000000;
+		}
+		
+		if (depth<= 0) {
+			//return CountFieldsToHome(boardState, playerNumber, pawnnr);
+	return  Score(boardState,playerNumber)[playerNumber];
+		}
+		else{
+			
+			bestScoreMX = -999999;
+			for (int pawn = 0; pawn < 4; pawn++) {
+				if (board.moveable(pawn)) {
+					for (int dice = 1; dice < 7; dice++) {
+						int [][] tempBoardState = board.getNewBoardState(boardState, pawn, playerNumber, dice);
+						moveScore = MIN(tempBoardState,depth, 1) + MIN(tempBoardState,depth, 2) + MIN(tempBoardState,depth, 3);
+						if (moveScore>bestScoreMX) {
+							bestest = pawn;
+							bestScoreMX = moveScore;
+						}
+						
+					}
+				} 
+				
+			}
+		}
+		
+		return bestScoreMX;
+	}
+	
+	public float MIN(int[][] boardState,int depth, int playerNumber){
+		if (isGameOverHuman(boardState)) {
+			return -4000000;
+		}
+		if (depth<= 0) {
+			//	return CountFieldsToHome(boardState, playerNumber, pawnnr);
+		return Score(boardState,playerNumber)[playerNumber];
+			}
+			else{
+				
+				bestScoreMN = 999999;
+				for (int pawn = 0; pawn < 4; pawn++) {
+					if (board.moveable(pawn)) {
+						for (int dice = 1; dice < 7; dice++) {
+							int [][] tempBoardState = board.getNewBoardState(boardState, pawn, playerNumber, dice);
+							
+							moveScore = MAX(tempBoardState,depth-1, 0);
+							if (moveScore<bestScoreMN) {
+								bestest = pawn;
+								bestScoreMN = moveScore;
+							}
+							
+						}
+					} 
+					
+				}
+			}
+			
+			return bestScoreMN;
+	}
+	
+	public void MINIMAX(int[][]boardState, int depth){
+		bestest =-1;
+		bestScoreMN = -999999;
+		bestScoreMX = 999999;
+		int[][] tempBoardState;
+		for (int pawn = 0; pawn < 4; pawn++) {
+			
+				tempBoardState = board.getNewBoardState(board.getBoardState(), pawn, board.getMyColor(), board.getDice());
+				moveScore = MAX(tempBoardState,depth,1) +MIN(tempBoardState,depth,2) + MIN(tempBoardState,depth,3) ;
+			
+		 
+		}
+		if (bestest != -1) {
+			board.moveBrick(bestest);
+		}
+		
+	}
+	
+	
+	
+	
 }

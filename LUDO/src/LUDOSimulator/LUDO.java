@@ -92,10 +92,12 @@ public class LUDO extends Frame implements ActionListener
 				board.reset();
 				board.setPlayer(new MiniMaxLUDOPlayer(board),LUDOBoard.YELLOW);
 				//board.setPlayer(new RandomLUDOPlayer(board),LUDOBoard.YELLOW);
-				board.setPlayer(new SemiSmartLUDOPlayer2(board),LUDOBoard.RED);
-				board.setPlayer(new SemiSmartLUDOPlayer2(board),LUDOBoard.BLUE);
-				board.setPlayer(new SemiSmartLUDOPlayer2(board),LUDOBoard.GREEN);
-				if((i%500)==0) System.out.print(".");
+				board.setPlayer(new SemiSmartLUDOPlayer(board),LUDOBoard.RED);
+				board.setPlayer(new RandomLUDOPlayer(board),LUDOBoard.BLUE);
+				board.setPlayer(new RandomLUDOPlayer(board),LUDOBoard.GREEN);
+				if((i%100)==0) System.out.println(".*.");
+				System.out.print(".");
+				
 			}
 			System.out.println("Player Yellow:" + result[0]);
 			System.out.println("Player Red: " + result[1]);
