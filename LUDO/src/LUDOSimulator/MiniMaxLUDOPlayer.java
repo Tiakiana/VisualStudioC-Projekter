@@ -60,7 +60,8 @@ return score;
 	public float Max(int pawn){
 		
 		if (isGameOverComputer(tempBoardState)) {
-		return 4000000;
+			currentDepth ++; // maybe not necessary
+			return 4000000;
 	}
 	else if (currentDepth== maxDepth) {
 		//currentDepth = 0;
@@ -93,7 +94,8 @@ return score;
 		float bestScore = -99999;
 		
 		if (isGameOverComputer(tempBoardState)) {
-		return -4000000;
+			currentDepth --;
+			return -4000000;
 	}
 	else if (currentDepth== maxDepth) {
 		//currentDepth = 0;
@@ -101,7 +103,7 @@ return score;
 		
 	}
 	else{
-		
+
 		for (int pawn1 = 0; pawn1 < 4; pawn1++) {
 			for (int i = 1; i < 7; i++) {
 				tempBoardState = board.getNewBoardState(tempBoardState, pawn1, board.getMyColor(), i);
@@ -341,7 +343,7 @@ public float MiniMax(int[][] boardstate){
 	
 
 
-//I er brikken vi kigger på.
+//I er brikken vi kigger pï¿½.
 	public float analyzeBrickSituation(int i) {
 		if(board.moveable(i)) {
 		

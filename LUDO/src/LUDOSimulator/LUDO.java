@@ -67,9 +67,9 @@ public class LUDO extends Frame implements ActionListener
 	 */
 	public void play() {
 		int playerGul = 0;
-		int playerRød = 0;
-		int playerBlå = 0;
-		int playerGrøn = 0;
+		int playerRÃ¸d = 0;
+		int playerBlÃ¥ = 0;
+		int playerGrÃ¸n = 0;
 		System.out.println("Playing Ludo");
 		long time = System.currentTimeMillis();
 		int[] result = new int[4];
