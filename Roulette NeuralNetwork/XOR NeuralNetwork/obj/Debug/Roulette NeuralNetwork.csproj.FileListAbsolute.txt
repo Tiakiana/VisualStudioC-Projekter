@@ -1,0 +1,6 @@
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.exe.config
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.exe
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.pdb
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\obj\Debug\Roulette NeuralNetwork.csprojResolveAssemblyReference.cache
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.exe
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.pdb

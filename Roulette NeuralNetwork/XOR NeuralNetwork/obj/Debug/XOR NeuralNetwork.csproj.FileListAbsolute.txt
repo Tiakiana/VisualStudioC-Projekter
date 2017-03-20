@@ -1,0 +1,9 @@
+c:\users\amaterasu\documents\visual studio 2015\Projects\XOR NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.exe.config
+c:\users\amaterasu\documents\visual studio 2015\Projects\XOR NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.csprojResolveAssemblyReference.cache
+c:\users\amaterasu\documents\visual studio 2015\Projects\XOR NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.exe
+c:\users\amaterasu\documents\visual studio 2015\Projects\XOR NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.pdb
+c:\users\amaterasu\documents\visual studio 2015\Projects\XOR NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.exe
+c:\users\amaterasu\documents\visual studio 2015\Projects\XOR NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.pdb
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\bin\Debug\XOR NeuralNetwork.exe.config
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.exe
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\Roulette NeuralNetwork\XOR NeuralNetwork\obj\Debug\XOR NeuralNetwork.pdb
