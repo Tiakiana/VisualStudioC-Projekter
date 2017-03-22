@@ -8,21 +8,22 @@ namespace XOR_NeuralNetwork
 {
     public  class Program
     {
-        private static Neuron OutPutNeuron1;
+        private static OutputNeuron OutPutNeuron1;
         private static Neuron HiddenNeuron1;
         private static Neuron HiddenNeuron2;
+        private static Neuron HiddenNeuron3;
         static void Main(string[] args)
         {
-            double[] d = new double[3];
+            double[] d = new double[2];
 
             d[0] = 1.5;
             d[1] = 3;
-            d[2] = 4;
+       //     d[2] = 4;
 
             Console.WriteLine(sigmoid.Softmax(d)[0]);
             Console.WriteLine(sigmoid.Softmax(d)[1]);
-            Console.WriteLine(sigmoid.Softmax(d)[2]);
-            Console.WriteLine(sigmoid.Softmax(d)[0] + sigmoid.Softmax(d)[1] + sigmoid.Softmax(d)[2]);
+         //   Console.WriteLine(sigmoid.Softmax(d)[2]);
+            Console.WriteLine(sigmoid.Softmax(d)[0] + sigmoid.Softmax(d)[1]);// + sigmoid.Softmax(d)[2]);
 
 
             Console.WriteLine("How many times should I train?");
@@ -109,6 +110,7 @@ namespace XOR_NeuralNetwork
             {
                 get { return sigmoid.output(weights[0] * inputs[0] + weights[1] * inputs[1] + biasWeight); }
             }
+            
 
             public void randomizeWeights()
             {
@@ -121,6 +123,48 @@ namespace XOR_NeuralNetwork
             {
                 weights[0] += error * inputs[0];
                 weights[1] += error * inputs[1];
+                biasWeight += error;
+            }
+        }
+        class OutputNeuron
+        {
+            public double[] inputs = new double[3];
+            public double[] weights = new double[3];
+            public double error;
+
+            private double biasWeight;
+
+            private Random r = new Random();
+
+          /*  public double output
+            {
+                get { return sigmoid.output(weights[0] * inputs[0] + weights[1] * inputs[1] + biasWeight); }
+            }
+            */
+            public double[] output()
+            {
+                double[] d = new double[3];
+                d[0] = biasWeight + inputs[0]*weights[0];
+                d[1] = biasWeight + inputs[1]*weights[1];
+                d[2] = biasWeight + inputs[2]*weights[2];
+                return sigmoid.Softmax(d);
+            }
+
+
+
+            public void randomizeWeights()
+            {
+                weights[0] = r.NextDouble();
+                weights[1] = r.NextDouble();
+                weights[2] = r.NextDouble();
+                biasWeight = r.NextDouble();
+            }
+
+            public void adjustWeights()
+            {
+                weights[0] += error * inputs[0];
+                weights[1] += error * inputs[1];
+                weights[2] += error * inputs[2];
                 biasWeight += error;
             }
         }
@@ -142,11 +186,13 @@ namespace XOR_NeuralNetwork
             // creating the neurons
             Neuron hiddenNeuron1 = new Neuron();
             Neuron hiddenNeuron2 = new Neuron();
-            Neuron outputNeuron = new Neuron();
+            Neuron hiddenNeuron3 = new Neuron();
+            OutputNeuron outputNeuron = new OutputNeuron();
 
             // random weights
             hiddenNeuron1.randomizeWeights();
             hiddenNeuron2.randomizeWeights();
+            hiddenNeuron3.randomizeWeights();
             outputNeuron.randomizeWeights();
 
             int epoch = 0;
@@ -161,12 +207,17 @@ namespace XOR_NeuralNetwork
 
                 outputNeuron.inputs = new double[] { hiddenNeuron1.output, hiddenNeuron2.output };
 
-                Console.WriteLine("{0} xor {1} = {2}", inputs[i, 0], inputs[i, 1], outputNeuron.output);
-
+                Console.WriteLine("{0} xor {1} = {2}", inputs[i, 0], inputs[i, 1], outputNeuron.output());
+                Console.WriteLine(outputNeuron.output()[0]);
+                Console.WriteLine(outputNeuron.output()[1]);
+                Console.WriteLine(outputNeuron.output()[2]);
                 // 2) back propagation (adjusts weights)
 
                 // adjusts the weight of the output neuron, based on its error
                 outputNeuron.error = sigmoid.derivative(outputNeuron.output) * (results[i] - outputNeuron.output);
+
+                //get { return sigmoid.output(weights[0] * inputs[0] + weights[1] * inputs[1] + biasWeight); }
+
                 outputNeuron.adjustWeights();
 
                 // then adjusts the hidden neurons' weights, based on their errors
