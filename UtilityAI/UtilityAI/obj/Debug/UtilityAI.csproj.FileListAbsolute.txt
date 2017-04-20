@@ -1,0 +1,6 @@
+c:\users\jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\bin\Debug\UtilityAI.exe.config
+C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\bin\Debug\UtilityAI.exe
+C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\bin\Debug\UtilityAI.pdb
+C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\obj\Debug\UtilityAI.csprojResolveAssemblyReference.cache
+C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\obj\Debug\UtilityAI.exe
+C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\obj\Debug\UtilityAI.pdb
