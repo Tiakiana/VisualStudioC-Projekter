@@ -1,0 +1,6 @@
+E:\Repositories\VisualStudioC#Projekter\BuildNeuralNetworkDemo\BuildNeuralNetworkDemo\bin\Debug\BuildNeuralNetworkDemo.exe.config
+E:\Repositories\VisualStudioC#Projekter\BuildNeuralNetworkDemo\BuildNeuralNetworkDemo\bin\Debug\BuildNeuralNetworkDemo.exe
+E:\Repositories\VisualStudioC#Projekter\BuildNeuralNetworkDemo\BuildNeuralNetworkDemo\bin\Debug\BuildNeuralNetworkDemo.pdb
+E:\Repositories\VisualStudioC#Projekter\BuildNeuralNetworkDemo\BuildNeuralNetworkDemo\obj\Debug\BuildNeuralNetworkDemo.csprojResolveAssemblyReference.cache
+E:\Repositories\VisualStudioC#Projekter\BuildNeuralNetworkDemo\BuildNeuralNetworkDemo\obj\Debug\BuildNeuralNetworkDemo.exe
+E:\Repositories\VisualStudioC#Projekter\BuildNeuralNetworkDemo\BuildNeuralNetworkDemo\obj\Debug\BuildNeuralNetworkDemo.pdb
