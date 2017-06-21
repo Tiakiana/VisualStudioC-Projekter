@@ -4,3 +4,6 @@ C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\bin\Deb
 C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\obj\Debug\UtilityAI.csprojResolveAssemblyReference.cache
 C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\obj\Debug\UtilityAI.exe
 C:\Users\Jakob\documents\visual studio 2015\Projects\UtilityAI\UtilityAI\obj\Debug\UtilityAI.pdb
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\UtilityAI\UtilityAI\bin\Debug\UtilityAI.exe.config
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\UtilityAI\UtilityAI\obj\Debug\UtilityAI.exe
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\UtilityAI\UtilityAI\obj\Debug\UtilityAI.pdb

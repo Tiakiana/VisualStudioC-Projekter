@@ -2,6 +2,7 @@
 //software research, education, and technical content development
 
 using System;
+using System.IO;
 
 // For 2013 Microsoft Build Conference attendees
 // June 25-28, 2013
@@ -26,14 +27,93 @@ using System;
 //
 // You can use this code however you wish subject to the usual disclaimers
 // (use at your own risk, etc.)
- 
- 
+
+
 namespace BuildNeuralNetworkDemo
 {
     class NeuralNetworkProgram
     {
+
+
+        //        Save Player XML fil
+        // Get the data from the XML-File
+        /*
+        public DataType GetDataType()
+                {
+                    System.Xml.Serialization.XmlSerializer reader = new System.Xml.Serialization.XmlSerializer(typeof(DataType));
+
+                    var path = "../../save.xml";
+
+                    System.IO.StreamReader file = new System.IO.StreamReader(path);
+
+                    DataType data = (DataType)reader.Deserialize(file);
+
+                    file.Close();
+
+                    return data;
+                }
+
+            */
+        /*
+        1. Age of patient at time of operation (numerical) 
+    2. Patient's year of operation (year - 1900, numerical) 
+    3. Number of positive axillary nodes detected (numerical) 
+    4. Survival status (class attribute) 
+    -- 1 = the patient survived 5 years or longer 
+    -- 2 = the patient died within 5 year
+        */
+
+
+            // 1 0 = alive
+            // 0 1 = død
+            //36,69,0,1
         static void Main(string[] args)
         {
+            double[][] allData = new double[306][];
+            string line;
+            string[] numbers;
+            int counter = 0;
+            // Read the file and display it line by line.
+            System.IO.StreamReader file = new System.IO.StreamReader("../../TestData.txt");
+            while ((line = file.ReadLine()) != null)
+            {
+
+                numbers = line.Split(',');
+                double epsilon = 0.001;
+                allData[counter] = new double[5];
+                allData[counter][0] =epsilon + double.Parse(numbers[0]);
+                allData[counter][0] /=10;
+
+                allData[counter][1] = epsilon + double.Parse(numbers[1]);
+                allData[counter][1] /=10;
+                allData[counter][2] = epsilon + double.Parse(numbers[2]);
+               
+                if (double.Parse(numbers[3]) == 1)
+                {
+                allData[counter][3] = 1;
+                allData[counter][4] = 0;
+
+                }
+                else
+                {
+                    allData[counter][3] = 0;
+                    allData[counter][4] = 1;
+
+                }
+                counter++;
+                line = "";
+            }
+
+            file.Close();
+
+            // Suspend the screen.
+            Console.ReadLine();
+
+         
+            // mock dataexample
+           // allData[0] = new double[] {43, 43, 7, 0, 1};
+
+            /*
             Console.WriteLine("\nBegin Build 2013 neural network demo");
             Console.WriteLine("\nData is the famous Iris flower set.");
             Console.WriteLine("Data is sepal length, sepal width, petal length, petal width -> iris species");
@@ -45,7 +125,11 @@ namespace BuildNeuralNetworkDemo
             Console.WriteLine(" 7.0, 3.2, 4.7, 1.4, Iris versicolor");
             Console.WriteLine(" 6.3, 3.3, 6.0, 2.5, Iris virginica");
             Console.WriteLine(" ......\n");
+            */
 
+            
+                /*
+            
             double[][] allData = new double[150][];
             allData[0] = new double[] { 5.1, 3.5, 1.4, 0.2, 0, 0, 1 }; // sepal length, width, petal length, width
             allData[1] = new double[] { 4.9, 3.0, 1.4, 0.2, 0, 0, 1 }; // Iris setosa = 0 0 1
@@ -211,6 +295,14 @@ namespace BuildNeuralNetworkDemo
             allData[147] = new double[] { 6.5, 3.0, 5.2, 2.0, 1, 0, 0 };
             allData[148] = new double[] { 6.2, 3.4, 5.4, 2.3, 1, 0, 0 };
             allData[149] = new double[] { 5.9, 3.0, 5.1, 1.8, 1, 0, 0 };
+               1. Age of patient at time of operation (numerical) 
+    2. Patient's year of operation (year - 1900, numerical) 
+    3. Number of positive axillary nodes detected (numerical) 
+    4. Survival status (class attribute
+            
+            */
+
+            // 
 
             Console.WriteLine("\nFirst 6 rows of entire 150-item data set:");
             ShowMatrix(allData, 6, 1, true);
@@ -236,9 +328,9 @@ namespace BuildNeuralNetworkDemo
             Console.WriteLine("\nCreating a 4-input, 7-hidden, 3-output neural network");
             Console.Write("Hard-coded tanh function for input-to-hidden and softmax for ");
             Console.WriteLine("hidden-to-output activations");
-            const int numInput = 4;
-            const int numHidden = 7;
-            const int numOutput = 3;
+            const int numInput = 3;
+            const int numHidden = 3;
+            const int numOutput = 2;
             NeuralNetwork nn = new NeuralNetwork(numInput, numHidden, numOutput);
 
             Console.WriteLine("\nInitializing weights and bias to small random values");
@@ -267,6 +359,36 @@ namespace BuildNeuralNetworkDemo
 
             Console.WriteLine("\nEnd Build 2013 neural network demo\n");
             Console.ReadLine();
+
+            /*
+            
+             string[] lines = { "First line", "Second line", "Third line" };
+          System.IO.File.WriteAllLines(@"C:\Users\Public\TestFolder\WriteLines.txt", lines);
+
+
+        string text = "A class is the most powerful data type in C#. Like a structure, " +
+                       "a class defines the data and behavior of the data type. ";
+        System.IO.File.WriteAllText(@"C:\Users\Public\TestFolder\WriteText.txt", text);
+
+        using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\Public\TestFolder\WriteLines2.txt"))
+        {
+            foreach (string line in lines)
+            {
+                if (!line.Contains("Second"))
+                {
+                    file.WriteLine(line);
+                }
+            }
+        }
+
+        using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\Public\TestFolder\WriteLines2.txt", true))
+        {
+            file.WriteLine("Fourth line");
+        }
+    
+
+    */
+
 
         } // Main
 

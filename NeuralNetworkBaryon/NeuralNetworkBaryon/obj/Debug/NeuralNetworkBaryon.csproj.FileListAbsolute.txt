@@ -1,1 +1,7 @@
 E:\Repositories\VisualStudioC#Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\bin\Debug\NeuralNetworkBaryon.exe.config
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\bin\Debug\NeuralNetworkBaryon.exe.config
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\bin\Debug\NeuralNetworkBaryon.exe
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\bin\Debug\NeuralNetworkBaryon.pdb
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\obj\Debug\NeuralNetworkBaryon.csprojResolveAssemblyReference.cache
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\obj\Debug\NeuralNetworkBaryon.exe
+E:\Repositories\VisualStudioC#Projekter\VisualStudioC-Projekter\NeuralNetworkBaryon\NeuralNetworkBaryon\obj\Debug\NeuralNetworkBaryon.pdb

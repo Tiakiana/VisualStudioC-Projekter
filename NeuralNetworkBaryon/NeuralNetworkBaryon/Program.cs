@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,9 +36,40 @@ namespace NeuralNetworkBaryon
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Manly tests of how sigmoid and sigmoid derivative works");
+            Console.WriteLine(sigmoid.output(-7));
+            Console.WriteLine(sigmoid.output(-6));
+            Console.WriteLine(sigmoid.output(-5));
+            Console.WriteLine(sigmoid.output(-4));
+            Console.WriteLine(sigmoid.output(-3));
+            Console.WriteLine(sigmoid.output(-2));
+            Console.WriteLine(sigmoid.output(-1));
+            Console.WriteLine(sigmoid.output(-0));
 
 
 
+            Console.WriteLine(sigmoid.output(0));
+            Console.WriteLine(sigmoid.output(1));
+            Console.WriteLine(sigmoid.output(2));
+            Console.WriteLine(sigmoid.output(3));
+            Console.WriteLine(sigmoid.output(4));
+            Console.WriteLine(sigmoid.output(5));
+            Console.WriteLine(sigmoid.output(6));
+            Console.WriteLine(sigmoid.output(7));
+
+            Console.WriteLine(sigmoid.derivative(0));
+            Console.WriteLine(sigmoid.derivative(1));
+            Console.WriteLine(sigmoid.derivative(2));
+            Console.WriteLine(sigmoid.derivative(3));
+            Console.WriteLine(sigmoid.derivative(4));
+            Console.WriteLine(sigmoid.derivative(5));
+            Console.WriteLine(sigmoid.derivative(6));
+            Console.WriteLine(sigmoid.derivative(7));
+
+
+
+
+            Console.ReadKey();
 
 
 
